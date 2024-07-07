@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Smartbinn"
+        tools:targetApi="31">
+        <activity
+            android:name=".workreport"
+            android:exported="false" />
+        <activity
+            android:name=".Work_Report"
+            android:exported="false" />
+        <activity
+            android:name=".ViewComplaints"
+            android:exported="false" />
+        <activity
+            android:name=".view_driver_list"
+            android:exported="false" />
+        <activity
+            android:name=".UserDetailsActivity"
+            android:label="User Details" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".viewworkreport"
+            android:exported="false" />
+        <activity
+            android:name=".userdetails"
+            android:exported="false" />
+        <activity
+            android:name=".viewdriverlist"
+            android:exported="false" />
+        <activity
+            android:name=".viewcomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".myprofile"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.workreport"
+            android:exported="false"
+            android:label="@string/title_activity_workreport" />
+        <activity
+            android:name=".driverlogin"
+            android:exported="false" />
+        <activity
+            android:name=".driverloginpage"
+            android:exported="false" />
+        <activity
+            android:name=".adminloginpage"
+            android:exported="false" />
+        <activity
+            android:name=".insertdata"
+            android:exported="false" />
+        <activity
+            android:name=".registercomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".userregister"
+            android:exported="false" />
+        <activity
+            android:name=".userlogin"
+            android:exported="false" />
+        <activity
+            android:name=".adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".driverregister"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD1-ysfBmGjhLxDT2Lv3M1X4TyswTh77oM" />
+    </application>
+
+</manifest>
